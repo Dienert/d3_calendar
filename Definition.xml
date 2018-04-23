@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<ExtensionObject Path="d3_calendar" Label="D3 Calendar" Description="Calendar with months and week days from Monday to Saturday" Type="object" PageHeight="10000">
+    
+    <Dimension Label="Data de Admissão:" Initial="" />
+    <Measurement Label="Quantidade de Admissões:" Initial="" />
+    
+    <Text Label="Máximo de Admissões:" Type="text" Width="90%" Expression=""/>
+    <Text Label="Mínimo de Admissões:" Type="text" Width="90%" Expression=""/>
+
+    <Initiate Name="Caption.Text" Value="Calendário" /> 
+    <Initiate Name="Caption.Font.Italic" Value="0" /> 
+    <Initiate Name="Chart.BgColor.ColorHex" Value="#FFFFFF" />
+    <Initiate Name="Layout.Normal.Width" Value="700" />
+    <Initiate Name="Layout.Normal.Height" Value="209" />
+
+</ExtensionObject>
