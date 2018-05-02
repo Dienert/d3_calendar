@@ -142,9 +142,9 @@ function D3JS_MASTER() {
 				var data = objectfyDataArray(this.Data.Rows);
 
 			///*
-			var width = 600,
+			var //width = 600,
 				height = 136,
-				//width = this.GetWidth();
+				width = this.GetWidth();
 				//height = this.GetHeight();
 				cellSize = 17;
 			var formatPercent = d3.format(".1%");
