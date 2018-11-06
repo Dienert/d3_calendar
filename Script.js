@@ -108,7 +108,7 @@ function D3JS_CALENDAR() {
 					.range(["#006837", "#66bd63", "#d9ef8b", "#ffffbf", "#fee08b", "#fdae61", "#f46d43", "#d73027","#a50026"]);
 				var svg = d3.select("#"+canvasID)
 				.selectAll("svg")
-				.data(d3.range(2016, 2018))
+				.data(d3.range(2016, 2019))
 				.enter().append("svg")
 					.attr("width", width)
 					.attr("height", height)
